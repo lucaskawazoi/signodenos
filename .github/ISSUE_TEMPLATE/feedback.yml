@@ -1,0 +1,36 @@
+name: Feedback sobre o site
+description: Problema de uso, sugestão ou dúvida pública.
+title: "[Feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: "Este relato será público. Não inclua dados pessoais, detalhes íntimos, dados de terceiros ou senhas. Para testar o site, não é necessário enviar feedback."
+  - type: dropdown
+    id: category
+    attributes:
+      label: Tipo de relato
+      options:
+        - Problema de uso
+        - Sugestão de melhoria
+        - Dúvida sobre o site
+    validations:
+      required: true
+  - type: input
+    id: route
+    attributes:
+      label: Página do site
+      description: "Opcional: somente o caminho, sem dados pessoais ou parâmetros. Exemplo: /compatibilidade/"
+  - type: textarea
+    id: description
+    attributes:
+      label: O que você observou ou sugere
+      description: Descreva apenas o funcionamento do site. Evite expor situações pessoais.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Publicação
+      options:
+        - label: Entendi que este relato será público e retirei informações pessoais ou de terceiros.
+          required: true
