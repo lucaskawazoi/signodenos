@@ -4,7 +4,7 @@ Astrologia como linguagem simbólica de reflexão e entretenimento. Sem ciência
 
 [Conheça a aplicação](https://signodenos-prod.web.app/?utm_source=github&utm_medium=owned&utm_campaign=feedback) · [Envie feedback público](https://github.com/lucaskawazoi/signodenos/issues/new?template=feedback.yml)
 
-Este repositório reúne informações e relatos de uso do projeto. O desenvolvimento e as publicações são assistidos por IA; conteúdo sensível ainda depende de revisão humana. Não há oferta paga, promessa de eficácia ou atendimento clínico.
+Este repositório reúne informações e relatos de uso do projeto. O desenvolvimento e as publicações são assistidos por IA; as páginas liberadas têm revisão editorial por Codex (IA), identificada na política editorial. Não há oferta paga, promessa de eficácia ou atendimento clínico.
 
 ## Como contribuir
 
